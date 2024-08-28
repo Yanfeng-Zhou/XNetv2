@@ -28,9 +28,9 @@ The corresponding oral video demonstration is [here](https://).
 
 ## XNet v2
 - **Overview**
-<p align="center">
-<img src="https://github.com/Yanfeng-Zhou/XNetv2/blob/main/figure/Overview.png" width="100%" >
-</p>
+  <p align="center">
+  <img src="https://github.com/Yanfeng-Zhou/XNetv2/blob/main/figure/Overview.png" width="100%" >
+  </p>
  
   >
   >$$L_{total}=L_{sup}+\lambda L_{unsup}$$
@@ -52,7 +52,7 @@ The corresponding oral video demonstration is [here](https://).
 	>$$x_H=I_H+\beta I_L \approx \beta I_L \approx \beta x^L.$$
 	>$x^H$ degenerates into a perturbation form of $x^L$, which can be regarded as consistent learning of two different LF perturbations. It effectively overcomes the failure to extract features when HF information is scarce.
 	<p align="center">
-	<img src="https://" width="100%" >
+	<img src="https://github.com/Yanfeng-Zhou/XNetv2/blob/main/figure/Image-level%20Fusion.png" width="100%" >
 	</p>
 
 - **Feature-Level Fusion**
