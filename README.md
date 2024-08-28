@@ -15,20 +15,22 @@ The corresponding oral video demonstration is [here](https://).
 <p align="center">
 <img src="https://github.com/Yanfeng-Zhou/XNetv2/blob/main/figure/Performance%20Degradation%20with%20Hardly%20HF%20Information_2.png" width="80%" >
 </p>
+
 - **Underutilization of Raw Image Information**
 	>XNet only uses low-frequency (LF) and HF images as input. Raw images are not involved in training. Although LF and HF information can be fused into complete information in fusion module, the raw image may still contain useful but unappreciated information.
 <p align="center">
 <img src="https://github.com/Yanfeng-Zhou/XNetv2/blob/main/figure/Underutilization%20of%20Raw%20Image%20Information.png" width="80%" >
 </p>
+
 - **Insufficient Fusion**
 	>XNet only uses deep features for fusion. Shallow feature fusion and image-level fusion are also necessary.
 
 
 ## XNet v2
 - **Overview**
-  <p align="center">
-  <img src="https://github.com/Yanfeng-Zhou/XNetv2/blob/main/figure/Overview.png" width="100%" >
-  </p>
+<p align="center">
+<img src="https://github.com/Yanfeng-Zhou/XNetv2/blob/main/figure/Overview.png" width="100%" >
+</p>
  
   >
   >$$L_{total}=L_{sup}+\lambda L_{unsup}$$
