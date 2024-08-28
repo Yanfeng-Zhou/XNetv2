@@ -9,17 +9,17 @@ The corresponding oral video demonstration is [here](https://).
 
 - **Performance Degradation with Hardly HF Information**
 	>XNet emphasizes high-frequency (HF) information. When images hardly have HF information, XNet performance is negatively impacted.
-	<p align="center">
-	<img src="https://github.com/Yanfeng-Zhou/XNetv2/blob/main/figure/Performance%20Degradation%20with%20Hardly%20HF%20Information_1.png" width="80%" >
-	</p>
-	<p align="center">
-	<img src="https://github.com/Yanfeng-Zhou/XNetv2/blob/main/figure/Performance%20Degradation%20with%20Hardly%20HF%20Information_2.png" width="80%" >
-	</p>
+<p align="center">
+<img src="https://github.com/Yanfeng-Zhou/XNetv2/blob/main/figure/Performance%20Degradation%20with%20Hardly%20HF%20Information_1.png" width="80%" >
+</p>
+<p align="center">
+<img src="https://github.com/Yanfeng-Zhou/XNetv2/blob/main/figure/Performance%20Degradation%20with%20Hardly%20HF%20Information_2.png" width="80%" >
+</p>
 - **Underutilization of Raw Image Information**
 	>XNet only uses low-frequency (LF) and HF images as input. Raw images are not involved in training. Although LF and HF information can be fused into complete information in fusion module, the raw image may still contain useful but unappreciated information.
-	<p align="center">
-	<img src="https://github.com/Yanfeng-Zhou/XNetv2/blob/main/figure/Underutilization%20of%20Raw%20Image%20Information.png" width="80%" >
-	</p>
+<p align="center">
+<img src="https://github.com/Yanfeng-Zhou/XNetv2/blob/main/figure/Underutilization%20of%20Raw%20Image%20Information.png" width="80%" >
+</p>
 - **Insufficient Fusion**
 	>XNet only uses deep features for fusion. Shallow feature fusion and image-level fusion are also necessary.
 
@@ -70,7 +70,7 @@ The corresponding oral video demonstration is [here](https://).
 	
 - **Fully-Supervision**
 	<p align="center">
-	<img src="https://github.com/Yanfeng-Zhou/XNetv2/blob/main/figure/Fully-Supervision.png" width="100%" >
+	<img src="https://github.com/Yanfeng-Zhou/XNetv2/blob/main/figure/Fully-Supervision.png" width="50%" >
 	</p>
 
 ## Qualitative Comparison
