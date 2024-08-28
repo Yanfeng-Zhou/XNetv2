@@ -50,6 +50,7 @@ The corresponding oral video demonstration is [here](https://).
 	>$$x_L=I_L+\alpha I_H \approx I_L,$$
 	>
 	>$$x_H=I_H+\beta I_L \approx \beta I_L \approx \beta x^L.$$
+	>
 	>$x^H$ degenerates into a perturbation form of $x^L$, which can be regarded as consistent learning of two different LF perturbations. It effectively overcomes the failure to extract features when HF information is scarce.
 	<p align="center">
 	<img src="https://github.com/Yanfeng-Zhou/XNetv2/blob/main/figure/Image-level%20Fusion.png" width="100%" >
